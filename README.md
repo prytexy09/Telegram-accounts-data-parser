@@ -1,5 +1,5 @@
 # Telegram User Data Extraction and Excel Output Script
----
+
 ### 📝 About
 ---
 This script was designed to extract specific data from Telegram accounts and output it in an organized Excel file. The data collected includes:
@@ -20,3 +20,10 @@ Customizable Filtering:
 The script allows for filtering of the extracted data based on specific keywords. This enables users to tailor the output to their specific needs.
 
 This tool is valuable for conducting target audience analysis and gathering insights about Telegram users. It streamlines the process of data collection and organization, saving considerable time and effort.
+
+### ⚙️ Installation
+---
+- Requires: Python 3.10+
+- Install the requirements: ```pip install -r requirements.txt```
+- Add accounts usernames to accounts.txt
+- Start: ```python3 telegram_account_data_parser.py```
